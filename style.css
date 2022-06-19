@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.margin{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+
+.card_one{
+    max-width: 460px;
+    padding-bottom: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 2px;
+    
+}
+
+.nav{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.nav .fa-angle-left,a{
+    display: flex;
+    text-decoration: none;
+    font-size: 30px;
+}
+.nav span{
+    text-decoration: dotted;
+}
+
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    
+    border-left: 4px solid rgb(255, 255, 255);
+    border-right: 4px solid #FF6B00;
+    border-top: 4px solid #FF6B00;
+    border-bottom: 4px solid #FF6B00;
+    transform: rotate(30deg);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.img{
+    position:absolute;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: url(/images/IMG_20201107_010421\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    transform: rotate(-29deg);
+    
+}
+.join{
+    position: relative;
+}
+.join ::before{
+    width: 460px;
+    content: '';
+    position: absolute;
+    left: -50px;
+    right: 0px;
+    top: -20px;
+    height: 100px;
+    width: 2px;
+    background-color:rgb(108, 100, 100) ;
+}
+.join p:nth-child(1){
+    font-size: 20px;
+}
+.join p:nth-child(2){
+    font-size: 20px;
+    font-weight: bolder;
+}
+#name{
+    margin: 0px;
+    padding: 0px;
+    font-size: 40px;
+}
+#Profession{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 200;
+    font-size: 40px;
+    color: #93959E;
+}
+
+.main-functions{
+    margin-top: 50px;
+}
+.function{
+    display: flex;
+    max-width: 100%;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-icon{
+    display: flex;
+    width: 15%;
+
+}
+.left-icon a{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: #FFF0E4;
+    color:#FF6B00;
+    text-decoration: none;
+    pointer-events: none;
+
+}
+.My-Body .left-icon a{
+    color: #541EFF;
+    background-color: #ECEAFF;
+}
+.Settings .left-icon a{
+    color: #00A2EE;
+    background-color: #E5F8FF;
+}
+
+.Function-name{
+    width: 60%;
+}
+.right-icon{
+    display: flex;
+    width: 15%;
+    justify-content: right;
+}
+.right-icon a{
+    background-color: #F5F5F7;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    border-radius: 30%;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+        
+}
+.sing-out{
+    display: flex;
+    margin-top: 50px;
+    height: 40px;
+    width: 120px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F5F5F7;
+    
+}
+
+.sing-out i{
+    text-decoration: none;
+    color: #FC3662;
+
+
+}
+
+.sing-out a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+    font-size: 20px;
+
+
+}
